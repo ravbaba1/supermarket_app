@@ -3,6 +3,7 @@ import pandas as pd
 import market_logic as ml
 from datetime import datetime
 import os
+import json
 
 st.set_page_config(page_title="Supermarket Cloud POS (RBAC)", page_icon="🛒", layout="wide")
 
