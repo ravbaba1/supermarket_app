@@ -79,7 +79,7 @@ else:
                     st.session_state.last_receipt = None
                     st.rerun()
         
-        c_left, c_right = st.columns()
+        c_left, c_right = st.columns(2)
         
         with c_left:
             st.subheader("📦 Available Stock Shelves")
