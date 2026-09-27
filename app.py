@@ -21,7 +21,7 @@ if st.session_state.logged_in_user is None:
     st.title("🔐 Supermarket Secure Terminal Login")
     st.markdown("---")
     
-    col1, col2 = st.columns()
+    col1, col2 = st.columns(2)
     with col1:
         with st.form("login_form"):
             username = st.text_input("Username:").strip().lower()
